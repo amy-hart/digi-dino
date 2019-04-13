@@ -1,7 +1,8 @@
 # Digi-Dino
 
-This is a virtual pet game that allows you to keep your dinosaur happy and healthy throughout their life-span. Neglet will result
-in your digi-dino dying before its time.
+[![video thumnail for Digi Dino app demonstration](http://img.youtube.com/vi/usHLhh_gEto/0.jpg)](http://www.youtube.com/watch?v=usHLhh_gEto "video thumnail for Digi Dino app demonstration")
+
+This is a virtual pet game that allows you to keep your dinosaur happy and healthy throughout their life-span. Neglet will result in your digi-dino dying before its time.
 
 #Features of your dinosaur
 
@@ -17,27 +18,12 @@ in your digi-dino dying before its time.
 * Get your dino to chat with friends to increase its social level.
 * Scoop the poop to increase its cleanliness.
 
-#Getting Started
 
-#Prerequisites
-
-#Installing
-
-#Running the tests
-
-#Break down into end to end tests
-
-#Deployment
 
 #Authors
 
-Amy Hart
-
-Elena Stagg
-
-Stephen Royle
+Amy Hart, Elena Stagg, and Stephen Royle
 
 #Acknowledgments
 
 This project was inspired by a [Manchester Codes](https://www.manchestercodes.com/) learning project to create a virtual pet using JavaScript.
-We have added more advanced features to the game and a UI using React Native.
