@@ -22,10 +22,8 @@ Click on the image below to see the game in action. The gameplay in this video h
 
 [![video thumnail for Digi Dino app demonstration](http://img.youtube.com/vi/usHLhh_gEto/0.jpg)](http://www.youtube.com/watch?v=usHLhh_gEto "Link to Digi Dino app demonstration on YouTube")
 
-# Authors
-
-Amy Hart, Elena Stagg, and Stephen Royle
-
 # Acknowledgments
+
+I contributed to this project along with two other students from my coding bootcamp, Elana Stagg, and Stephen Royle. This was our first attempt at app development, and our first time experimenting with React Native. We built this application together as team to demosntrage the skills we'd learnt during our time on the course.
 
 This project was inspired by a [Manchester Codes](https://www.manchestercodes.com/) learning project to create a virtual pet using JavaScript.
