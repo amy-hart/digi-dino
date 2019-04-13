@@ -20,7 +20,7 @@ Digi Dino is a virtual pet game created for mobile. As a responsible pet owner y
 
 Click on the image below to see the game in action. The gameplay in this video has been sped up to demonstrate the passage of time: 
 
-[![video thumnail for Digi Dino app demonstration](http://img.youtube.com/vi/usHLhh_gEto/0.jpg)](http://www.youtube.com/watch?v=usHLhh_gEto "Link to Digi Dino app demonstration on YouTube")
+[![video thumnail for Digi Dino app demonstration](http://img.youtube.com/vi/usHLhh_gEto/0.jpg)](http://www.youtube.com/watch?v=usHLhh_gEto "Link to Digi Dino app demonstration on YouTube"){:target="_blank"}
 
 # Authors
 
