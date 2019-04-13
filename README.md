@@ -2,6 +2,21 @@
 
 Digi Dino is a virtual pet game created for mobile. As a responsible pet owner your goal is to keep your dinosaur fit and healthy throughout its lifetime. 
 
+# Installation
+
+```{r, engine='bash', count_lines}
+git clone git@github.com:amy-hart/digi-dino.git
+```
+```{r, engine='bash', count_lines}
+npm install
+```
+```{r, engine='bash', count_lines}
+cd digi-dino
+```
+```{r, engine='bash', count_lines}
+expo start
+```
+
 # Gameplay
 * Wait for the app to load.  
 * Give your dinosaur a name, and hit the 'Save' button to get started.
