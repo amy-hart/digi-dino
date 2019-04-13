@@ -1,6 +1,6 @@
-# Digi-Dino
+# DigiDino
 
-Digi Dino is a virtual pet game created for mobile. As a responsible pet owner your goal is to keep your dinosaur fit and healthy throughout its life. 
+DigiDino is a virtual pet game created for mobile. As a responsible pet owner your goal is to keep your dinosaur fit and healthy throughout its life. 
 
 # Gameplay
 * Wait for the app to load, and then give your dinosaur a name. 
@@ -20,7 +20,7 @@ Digi Dino is a virtual pet game created for mobile. As a responsible pet owner y
 
 Click on the image below to see the game in action. The gameplay in this video has been sped up to demonstrate the passing of time: 
 
-[![video thumnail for Digi Dino app demonstration](http://img.youtube.com/vi/usHLhh_gEto/0.jpg)](http://www.youtube.com/watch?v=usHLhh_gEto "Link to Digi Dino app demonstration on YouTube")
+[![video thumnail for DigiDino app demonstration](http://img.youtube.com/vi/usHLhh_gEto/0.jpg)](http://www.youtube.com/watch?v=usHLhh_gEto "Link to DigiDino app demonstration on YouTube")
 
 # Authors
 
