@@ -7,82 +7,78 @@ import Dinosaur from './src/digi-dino';
 const Chewy = require('./assets/fonts/Chewy-Regular.ttf');
 
 class App extends React.Component {
-  state = {
-    isLoading: true,
-    Dinosaur: null,
-    modalVisible: false,
-    errorMessage: '',
-    currentAction: 'normalState',
-  };
+	state = {
+		isLoading: true,
+		Dinosaur: null,
+		modalVisible: false,
+		errorMessage: '',
+		currentAction: 'normalState'
+	};
 
-  handleNameSubmit = (name) => {
-    this.setState({
-      Dinosaur: new Dinosaur(name),
-    });
-  };
+	handleNameSubmit = (name) => {
+		this.setState({
+			Dinosaur: new Dinosaur(name)
+		});
+	};
 
-  handlePress = (action) => {
-    try {
-      this.state.Dinosaur[action]();
-      this.setState({
-        Dinosaur: this.state.Dinosaur,
-        currentAction: action,
-      });
-    } catch (error) {
-      window.clearInterval(this.dayInterval);
-      this.setState({
-        modalVisible: true,
-        errorMessage: error.message,
-      });
-    }
-  };
+	handlePress = (action) => {
+		try {
+			this.state.Dinosaur[action]();
+			this.setState({
+				Dinosaur: this.state.Dinosaur,
+				currentAction: action
+			});
+		} catch (error) {
+			window.clearInterval(this.dayInterval);
+			this.setState({
+				modalVisible: true,
+				errorMessage: error.message
+			});
+		}
+	};
 
-  handleGameEnds = () => {
-    window.clearInterval(this.dayInterval);
-    this.setState({
-      Dinosaur: null,
-      modalVisible: false,
-      errorMessage: '',
-    });
-  };
+	handleGameEnds = () => {
+		window.clearInterval(this.dayInterval);
+		this.setState({
+			Dinosaur: null,
+			modalVisible: false,
+			errorMessage: ''
+		});
+	};
 
-  handleDayPasses = () => {
-    this.dayInterval = window.setInterval(() => {
-      this.handlePress('dayPasses');
-    }, 9000);
-  };
+	handleDayPasses = () => {
+		this.dayInterval = window.setInterval(() => {
+			this.handlePress('dayPasses');
+		}, 3600000);
+	};
 
-  render() {
-    /* Waits for font to load before showing the home screen */
-    if (this.state.isLoading) {
-      return (
-        <AppLoading
-          startAsync={() => Font.loadAsync({ Chewy })}
-          onFinish={() => this.setState({ isLoading: false })}
-        />
-      );
-    }
+	render() {
+		/* Waits for font to load before showing the home screen */
+		if (this.state.isLoading) {
+			return (
+				<AppLoading
+					startAsync={() => Font.loadAsync({ Chewy })}
+					onFinish={() => this.setState({ isLoading: false })}
+				/>
+			);
+		}
 
-    /* if dinosaur is dead (null ) show the home screen */
-    if (this.state.Dinosaur === null) {
-      return (
-        <DinoName
-          onSubmit={this.handleNameSubmit}
-        />
-      );
-    }
-    return (
-      <MainGameScreen
-        dinosaur={this.state.Dinosaur}
-        onPress={this.handlePress}
-        modalVisible={this.state.modalVisible}
-        errorMessage={this.state.errorMessage}
-        gameEnds={this.handleGameEnds}
-        setDayInterval={this.handleDayPasses}
-        currentAction={this.state.currentAction}
-      />
-    );
-  }
+		/* if dinosaur is dead (null ) show the home screen */
+		if (this.state.Dinosaur === null) {
+			return <DinoName onSubmit={this.handleNameSubmit} />;
+		}
+		return (
+			<MainGameScreen
+				dinosaur={this.state.Dinosaur}
+				onPress={this.handlePress}
+				modalVisible={this.state.modalVisible}
+				errorMessage={this.state.errorMessage}
+				gameEnds={this.handleGameEnds}
+				setDayInterval={this.handleDayPasses}
+				currentAction={this.state.currentAction}
+			/>
+		);
+	}
 }
 
 export default App;
