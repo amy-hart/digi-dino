@@ -5,7 +5,7 @@ Digi Dino is a virtual pet game created for mobile. As a responsible pet owner y
 # Gameplay
 * Wait for the app to load, then give your dinosaur a name. 
 * Once you've given your pet a name, hit the 'Save' button to get started.
-* As time passes your dinosaur's life-levels will decrease. If those life-levels reach zero your pet will die an untimely dealth. Keep your dinosaur fit and healthy by interacting with it as often as you can.
+* As time passes your dinosaur's life-levels will decrease. If those life-levels reach zero your pet will die an untimely dealth! Keep your dinosaur fit and healthy by interacting with it as often as you can.
 * Unfortunately nobody can live forever, so when your pet reaches the ripe old age of '100' it will die, and the game will restart.
 
 # Interacting with your dinosaur
