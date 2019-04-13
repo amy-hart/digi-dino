@@ -3,19 +3,25 @@
 Digi Dino is a virtual pet game created for mobile. As a responsible pet owner your goal is to keep your dinosaur fit and healthy throughout its lifetime. 
 
 # Installation
+These installation instructions assume that you already have Node.js, and the NPM package manager installed on your machine. You'll also need to have Expo installed on your machine, along with an Android/ iOS simulator, or the Expo application for your Android/ iOS mobile device.
 
+1. Clone down the repo:
 ```{r, engine='bash', count_lines}
 git clone git@github.com:amy-hart/digi-dino.git
 ```
+2. Install any dependencies: 
 ```{r, engine='bash', count_lines}
 npm install
 ```
+3. Move into the 'digi-dino' directory:
 ```{r, engine='bash', count_lines}
 cd digi-dino
 ```
+4. Start Expo:
 ```{r, engine='bash', count_lines}
 expo start
 ```
+5. Once Expo has started you can launch the application via the Android/ iOS simulator on your machine. Alternatively you can launch the Digi Dino application via the Expo application on your Android/ iOS mobile device.
 
 # Gameplay
 * Wait for the app to load.  
