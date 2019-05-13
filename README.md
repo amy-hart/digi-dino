@@ -46,6 +46,6 @@ expo start
 
 # Acknowledgments
 
-I contributed to this project along with two other students from my coding bootcamp, Elena Stagg, and Stephen Royle. This was our first attempt at app development, and our first time experimenting with React Native. We built this application together as team to demonstrate the skills we'd learnt during our time on the course.
+I contributed to this project along with two other students from my coding bootcamp, Elena Stagg, and Stephen Royle. This was our first attempt at app development, and our first time experimenting with React Native. We built this application together as team to demonstrate the skills we'd learnt during our time on the course, most of my time was spent on learning how to create basic animations for the dinosaur.
 
 This project was inspired by a [Manchester Codes](https://www.manchestercodes.com/) learning project to create a virtual pet using JavaScript.
