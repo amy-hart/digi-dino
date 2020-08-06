@@ -44,5 +44,4 @@ expo start
 
 # Acknowledgments
 
-I contributed to this project along with two other students from a coding course I attended. I created and wrote the code for the dinosaur animations.
-
+I contributed to this project along with two other students from a coding bootcamp I attended.
